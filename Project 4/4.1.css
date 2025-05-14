@@ -1,0 +1,355 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#container {
+    background-color: #6247ea;
+    height: 25cm;
+
+}
+
+nav {
+    padding-top: 1cm;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    height: 1.5cm;
+    background-color: aliceblue;
+}
+
+nav:hover {
+    background-color: #ec9d5f;
+    transition: all 0.5s;
+}
+
+nav li a {
+    text-decoration: none;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    text-align: justify;
+    color: #6247ea;
+    font-size: large;
+}
+
+nav li a:hover {
+    color: #fff;
+}
+
+#home {
+    margin-top: 5cm;
+    width: 100vh;
+    padding-bottom: 5cm;
+}
+
+#col-1 h1 {
+    width: 10cm;
+    text-align: left;
+}
+
+#col-1 p {
+    width: 12cm;
+    text-align: left;
+}
+
+#col-1 {
+    justify-content: center;
+    align-items: center;
+    width: 15cm;
+    padding: 1cm;
+    color: white;
+    margin-left: 3cm;
+}
+
+#col-1 input {
+    height: 1.5cm;
+    width: 6cm;
+    margin-top: 1.5cm;
+    background-color: orange;
+    border-radius: 14px;
+    color: aliceblue;
+    border-color: orange;
+    float: left;
+}
+
+#col-1 input:hover {
+    box-shadow: 2px 2px 5px rgb(97, 45, 45);
+    transform: scale(1.1);
+    transition: all 0.5s;
+    color: brown;
+}
+
+#second,
+#third {
+    margin-top: 3cm;
+    padding-top: 2cm;
+    text-align: center;
+}
+
+#body {
+    margin-top: 2cm
+}
+
+.body {
+    height: 6cm;
+    width: 6cm;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    padding-top: 0.5cm;
+    margin-right: 0.5cm;
+    margin-left: 0.3cm;
+    background: aliceblue;
+    border: 1px solid;
+
+}
+
+.body:hover {
+    box-shadow: 2px 2px 5px black;
+    transform: scale(1.1);
+    transition: 0.5s;
+    border-radius: 5px;
+    background: rgb(190, 225, 255);
+}
+
+#second-1 {
+    margin-left: 3.5cm;
+}
+
+#second h1,
+#third h1 {
+    font-size: 30px;
+}
+
+.third-1 {
+    text-align: left;
+    width: 6cm;
+    padding-left: 1cm;
+}
+
+#third-1 {
+    margin-top: 2cm;
+    margin-left: 5cm;
+    width: 28.5cm;
+    background-color: aliceblue;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.347);
+}
+
+#third-1 p {
+    font-size: 0.39cm;
+}
+
+#third-2,
+#third-3,
+#third-4 {
+    border-right: 1px solid rgb(212, 212, 212);
+}
+
+#table {
+    background-color: white;
+    margin-bottom: 1cm;
+}
+
+#textarea {
+    width: 20cm;
+    text-align: center;
+    padding: 2cm;
+}
+
+#banner {
+    background-color: #ec9d5f;
+    color: white;
+    padding-left: 18%;
+}
+
+#textarea input {
+    height: 1.25cm;
+    width: 7cm;
+    margin-top: 1cm;
+    border: 1px solid white;
+    border-radius: 0.3cm;
+}
+
+#textarea input:hover {
+    background-color: #6247ea;
+    border: 1px solid #6247ea;
+    transition: 0.5s;
+    transform: scale(1.2);
+    color: white;
+    border-radius: 3cm;
+}
+
+.box {
+    width: 8cm;
+    margin-top: 3cm;
+    text-align: left;
+}
+
+.box h1 {
+    font-size: 45px;
+}
+
+#box1 {
+    margin-left: 3.5cm;
+}
+
+#box2 {
+    border: 1px solid grey;
+    padding: 1cm;
+    margin-left: 2cm;
+}
+
+#box3 {
+    border: 1px solid grey;
+    padding: 1cm;
+    margin-left: 1cm;
+}
+
+#box2:hover {
+    box-shadow: 2px 2px 5px 5px rgb(171, 171, 171);
+    transition: all 0.5s;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+#box3:hover {
+    box-shadow: 2px 2px 5px 5px rgb(171, 171, 171);
+    transition: all 0.5s;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+#services {
+    background-color: #6247ea;
+    margin-top: 2cm;
+    padding-top: 2cm;
+    width: 100%vh;
+    color: white;
+}
+
+#info {
+    text-align: center;
+}
+
+#services table {
+    background-color: #6247ea;
+    padding-left: 3.5cm;
+    padding-right: 3.5cm;
+}
+
+.row-1 {
+    margin-top: 2cm;
+    height: 3cm;
+    width: 8cm;
+    border-radius: 10px;
+    padding: 50px 20px 50px 50px;
+    margin-bottom: 30px;
+    text-align: left;
+    background-color: rgb(235, 236, 236, 0.2);
+}
+
+.row-1:hover {
+    background-color: #fff;
+    color: black;
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+.row-2 {
+    height: 3cm;
+    width: 8cm;
+    border-radius: 10px;
+    padding: 50px 20px 50px 50px;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-bottom: 3cm;
+    background-color: rgb(235, 236, 236, 0.2);
+}
+
+.row-2:hover {
+    background-color: #fff;
+    color: black;
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+
+#services-1 {
+    margin-right: 0.83cm;
+}
+
+#services-2 {
+    margin-right: 0.83cm;
+}
+
+.font {
+    font-size: x-large;
+}
+
+#Blogs {
+    text-align: center;
+    margin-bottom: 2cm;
+    margin-top: 2cm;
+}
+
+.review {
+    border: 1px solid;
+    margin-bottom: 1cm;
+    width: 9cm;
+    height: 9cm;
+    margin-left: 1cm;
+    border-radius: 30px;
+}
+
+.review p {
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    margin-top: 0.5cm;
+    text-align: center;
+}
+
+.review .img1 img {
+    margin-top: 1cm;
+    height: 1.5cm;
+    width: 1.5cm;
+}
+
+.review .img2 img {
+    height: 1.1cm;
+    width: 5cm;
+}
+
+#review1 {
+    border-bottom: 8px solid rgb(238, 200, 144);
+    margin-left: 4.5cm;
+}
+
+#review1:hover {
+    border-top: 8px solid rgb(238, 200, 144);
+    border-left: 8px solid rgb(238, 200, 144);
+    border-right: 8px solid rgb(238, 200, 144);
+}
+
+#review2 {
+    border-bottom: 8px solid rgb(144, 163, 238);
+}
+
+#review2:hover {
+    border-top: 8px solid rgb(144, 163, 238);
+    border-left: 8px solid rgb(144, 163, 238);
+    border-right: 8px solid rgb(144, 163, 238);
+}
+
+#review3 {
+    border-bottom: 8px solid rgb(144, 238, 144);
+}
+
+#review3:hover {
+    border-top: 8px solid rgb(144, 238, 144);
+    border-left: 8px solid rgb(144, 238, 144);
+    border-right: 8px solid rgb(144, 238, 144);
+}
+
+.review:hover {
+    box-shadow: 2px 2px 5px 5px rgb(171, 171, 171);
+    transition: all 0.5s;
+    transform: scale(1.05);
+}

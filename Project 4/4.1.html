@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="4.1.css">
+    <title>HOSTHUB.COM</title>
+    <!-- <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #container {
+            background-color: #6247ea;
+            height: 25cm;
+
+        }
+
+        nav {
+            padding-top: 1cm;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            height: 1.5cm;
+            background-color: aliceblue;
+        }
+
+        nav:hover {
+            background-color: #ec9d5f;
+            transition: all 0.5s;
+        }
+
+        nav li a {
+            text-decoration: none;
+            margin-left: 1cm;
+            margin-right: 1cm;
+            text-align: justify;
+            color: #6247ea;
+            font-size: large;
+        }
+
+        nav li a:hover {
+            color: #fff;
+        }
+
+        #home {
+            margin-top: 5cm;
+            width: 100vh;
+            padding-bottom: 5cm;
+        }
+
+        #col-1 h1 {
+            width: 10cm;
+            text-align: left;
+        }
+
+        #col-1 p {
+            width: 12cm;
+            text-align: left;
+        }
+
+        #col-1 {
+            justify-content: center;
+            align-items: center;
+            width: 15cm;
+            padding: 1cm;
+            color: white;
+            margin-left: 3cm;
+        }
+
+        #col-1 input {
+            height: 1.5cm;
+            width: 6cm;
+            margin-top: 1.5cm;
+            background-color: orange;
+            border-radius: 14px;
+            color: aliceblue;
+            border-color: orange;
+            float: left;
+        }
+
+        #col-1 input:hover {
+            box-shadow: 2px 2px 5px rgb(97, 45, 45);
+            transform: scale(1.1);
+            transition: 0.5s;
+            color: brown;
+        }
+
+        #second,
+        #third {
+            margin-top: 3cm;
+            padding-top: 2cm;
+            text-align: center;
+        }
+
+        #body {
+            margin-top: 2cm
+        }
+
+        .body {
+            height: 6cm;
+            width: 6cm;
+            padding-left: 0.5cm;
+            padding-right: 0.5cm;
+            padding-top: 0.5cm;
+            margin-right: 0.5cm;
+            margin-left: 0.3cm;
+            background: aliceblue;
+            border: 1px solid;
+
+        }
+
+        .body:hover {
+            box-shadow: 2px 2px 5px black;
+            transform: scale(1.1);
+            transition: 0.5s;
+            border-radius: 5px;
+            background: rgb(190, 225, 255);
+        }
+
+        #second-1 {
+            margin-left: 3.5cm;
+        }
+
+        #second h1,
+        #third h1 {
+            font-size: 30px;
+        }
+
+        .third-1 {
+            text-align: left;
+            width: 6cm;
+            padding-left: 1cm;
+        }
+
+        #third-1 {
+            margin-top: 2cm;
+            margin-left: 5cm;
+            width: 28.5cm;
+            background-color: aliceblue;
+            box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.347);
+        }
+
+        #third-1 p {
+            font-size: 0.39cm;
+        }
+
+        #third-2,
+        #third-3,
+        #third-4 {
+            border-right: 1px solid rgb(212, 212, 212);
+        }
+
+        #table {
+            background-color: white;
+            margin-bottom: 1cm;
+        }
+
+        #textarea {
+            width: 20cm;
+            text-align: center;
+            padding: 2cm;
+        }
+
+        #banner {
+            background-color: #ec9d5f;
+            color: white;
+            padding-left: 18%;
+        }
+
+        #textarea input {
+            height: 1.25cm;
+            width: 7cm;
+            margin-top: 1cm;
+            border: 1px solid white;
+            border-radius: 0.3cm;
+        }
+
+        #textarea input:hover {
+            background-color: #6247ea;
+            border: 1px solid #6247ea;
+            transition: 0.5s;
+            transform: scale(1.2);
+            color: white;
+            border-radius: 3cm;
+        }
+
+        .box {
+            width: 8cm;
+            margin-top: 3cm;
+            text-align: left;
+        }
+
+        .box h1 {
+            font-size: 45px;
+        }
+
+        #box1 {
+            margin-left: 3.5cm;
+        }
+
+        #box2 {
+            border: 1px solid grey;
+            padding: 1cm;
+            margin-left: 2cm;
+        }
+
+        #box3 {
+            border: 1px solid grey;
+            padding: 1cm;
+            margin-left: 1cm;
+        }
+
+        #box2:hover {
+            box-shadow: 2px 2px 5px 5px rgb(171, 171, 171);
+            transition: all 0.5s;
+            transform: scale(1.1);
+            border-radius: 10px;
+        }
+
+        #box3:hover {
+            box-shadow: 2px 2px 5px 5px rgb(171, 171, 171);
+            transition: all 0.5s;
+            transform: scale(1.1);
+            border-radius: 10px;
+        }
+
+        #services {
+            background-color: #6247ea;
+            margin-top: 2cm;
+            padding-top: 2cm;
+            width: 100%vh;
+            color: white;
+        }
+
+        #info {
+            text-align: center;
+        }
+
+        #services table {
+            background-color: #6247ea;
+            padding-left: 3.5cm;
+            padding-right: 3.5cm;
+        }
+
+        .row-1 {
+            margin-top: 2cm;
+            height: 3cm;
+            width: 8cm;
+            border-radius: 10px;
+            padding: 50px 20px 50px 50px;
+            margin-bottom: 30px;
+            text-align: left;
+            background-color: rgb(235, 236, 236, 0.2);
+        }
+
+        .row-1:hover {
+            background-color: #fff;
+            color: black;
+            transition: all 0.5s;
+            transform: scale(1.1);
+        }
+
+        .row-2 {
+            height: 3cm;
+            width: 8cm;
+            border-radius: 10px;
+            padding: 50px 20px 50px 50px;
+            margin-bottom: 30px;
+            text-align: left;
+            margin-bottom: 3cm;
+            background-color: rgb(235, 236, 236, 0.2);
+        }
+
+        .row-2:hover {
+            background-color: #fff;
+            color: black;
+            transition: all 0.5s;
+            transform: scale(1.1);
+        }
+
+
+        #services-1 {
+            margin-right: 0.7cm;
+        }
+
+        #services-2 {
+            margin-right: 0.7cm;
+        }
+
+        .font {
+            font-size: x-large;
+        }
+
+        #Blogs {
+            text-align: center;
+            margin-bottom: 2cm;
+            margin-top: 2cm;
+        }
+
+        .review {
+            border: 1px solid;
+            margin-bottom: 1cm;
+            width: 9cm;
+            height: 9cm;
+            margin-left: 1cm;
+            border-radius: 30px;
+        }
+
+        .review p {
+            padding-left: 0.5cm;
+            padding-right: 0.5cm;
+            margin-top: 0.5cm;
+            text-align: center;
+        }
+
+        .review .img1 img {
+            margin-top: 1cm;
+            height: 1.5cm;
+            width: 1.5cm;
+        }
+
+        .review .img2 img {
+            height: 1.1cm;
+            width: 5cm;
+        }
+
+        #review1 {
+            border-bottom: 8px solid rgb(238, 200, 144);
+            margin-left: 4.5cm;
+        }
+
+        #review1:hover {
+            border-top: 8px solid rgb(238, 200, 144);
+            border-left: 8px solid rgb(238, 200, 144);
+            border-right: 8px solid rgb(238, 200, 144);
+        }
+
+        #review2 {
+            border-bottom: 8px solid rgb(144, 163, 238);
+        }
+
+        #review2:hover {
+            border-top: 8px solid rgb(144, 163, 238);
+            border-left: 8px solid rgb(144, 163, 238);
+            border-right: 8px solid rgb(144, 163, 238);
+        }
+
+        #review3 {
+            border-bottom: 8px solid rgb(144, 238, 144);
+        }
+
+        #review3:hover {
+            border-top: 8px solid rgb(144, 238, 144);
+            border-left: 8px solid rgb(144, 238, 144);
+            border-right: 8px solid rgb(144, 238, 144);
+        }
+
+        .review:hover {
+            box-shadow: 2px 2px 5px 5px rgb(171, 171, 171);
+            transition: all 0.5s;
+            transform: scale(1.05);
+        }
+    </style> -->
+</head>
+
+<body>
+    <div class="container">
+        <div id="container">
+            <header>
+                <nav>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">BLOGS</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                </nav>
+            </header>
+            <div id="home">
+                <table>
+                    <tr>
+                        <th>
+                            <div id="col-1">
+                                <h1>WE'RE WEB HOSTING PROFESSIONALS</h1>
+                                <p>
+                                    inappropriate behavior is often laughed off as “boys will be boys,” women face
+                                    higher conduct standards especially in the workplace. That's why it's crucial that,
+                                    as women.
+                                </p>
+                                <input type="button" value="EXPLORE OUR FEATURES">
+                            </div>
+                        </th>
+                        <th>
+                            <div id="col-2">
+                                <img src="https://preview.colorlib.com/theme/hosthub/img/banner/banner-map.png">
+                            </div>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="second">
+            <h1>Some Features that Made us Unique</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+        </div>
+        <div id="second-1">
+            <table>
+                <tr>
+                    <div id="body">
+                        <th>
+                            <div class="body">
+                                <h2>PROJECT 1</h2>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus eaque accusantium
+                                    impedit perferendis laboriosam mollitia voluptatum ipsum culpa cupiditate rerum.
+                                </p>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="body">
+                                <h2>PROJECT 2</h2>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem laborum asperiores
+                                    nihil saepe inventore delectus tempora sint perspiciatis esse dolores.
+                                </p>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="body">
+                                <h2>PROJECT 3</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat dolorem repellat
+                                    ipsa quam aspernatur vel dolores aperiam suscipit nam facere.
+                                </p>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="body">
+                                <h2>PROJECT 4</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptate
+                                    aliquid doloribus magni ipsa recusandae nam doloremque ipsum corporis corrupti?
+                                </p>
+                            </div>
+                        </th>
+                    </div>
+                </tr>
+            </table>
+        </div>
+        <br><br><br>
+        <div id="banner">
+            <div id="textarea">
+                <h1>Looking for a Custom Solution?</h1>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                </p>
+                <input type="button" value="Request Free Consultation">
+            </div>
+        </div>
+        <div id="main-box">
+            <table>
+                <tr>
+                    <th>
+                        <div id="box1" class="box">
+                            <h1>What our Client's Say about us</h1>
+                            <p>Acres of Diamonds… you've read the famous story, or at least had it related to you. A
+                                farmer hears tales of diamonds and begins dreaming.</p>
+                        </div>
+                    </th>
+                    <th>
+                        <div id="box2" class="box">
+                            <h2>Nellie Vega</h2>
+                            <p>Head of Marketing, Apple Inc.</p>
+                            <br>
+                            <p>“The following article covers a topic that has recently moved to center stage at least it
+                                seems that way. If you've been”</p>
+                        </div>
+                    </th>
+                    <th>
+                        <div id="box3" class="box">
+                            <h2>Estelle Andrews</h2>
+                            <p>Head of Marketing, Apple Inc.</p>
+                            <br>
+                            <p>“The following article covers a topic that has recently moved to center stage at least it
+                                seems that way. If you've been”</p>
+                        </div>
+                    </th>
+                </tr>
+            </table>
+        </div>
+        <div id="services">
+            <div id="info">
+                <h1>Top Services We Provided</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<br>
+                    labore
+                    et dolore magna aliqua.
+                </p>
+            </div>
+            <div id="table">
+                <table>
+                    <tr>
+                        <th>
+                            <div id="services-1" class="row-1">
+                                <div class="font">
+                                    Cloud Hosting
+                                </div>
+                                <p>Usage of the Internet is becoming more common due to rapid advancement of technology
+                                    and power.</p>
+                            </div>
+                        </th>
+                        <th>
+                            <div id="services-2" class="row-1">
+                                <div class="font">
+                                    Web Hosting
+                                </div>
+                                <p>Usage of the Internet is becoming more common due to rapid advancement of technology
+                                    and power.</p>
+                            </div>
+                        </th>
+                        <th>
+                            <div id="services-3" class="row-1">
+                                <div class="font">
+                                    Cloud Computing
+                                </div>
+                                <p>Usage of the Internet is becoming more common due to rapid advancement of technology
+                                    and power.</p>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div id="services-1" class="row-2">
+                                <div class="font">
+                                    VPS Hosting
+                                </div>
+                                <p>
+                                    Usage of the Internet is becoming more common due to rapid advancement of technology
+                                    and power.</p>
+                            </div>
+                        </th>
+                        <th>
+                            <div id="services-2" class="row-2">
+                                <div class="font">
+                                    Server Analytics
+                                </div>
+                                <p>
+                                    Usage of the Internet is becoming more common due to rapid advancement of technology
+                                    and power.
+                                </p>
+                            </div>
+                        </th>
+                        <th>
+                            <div id="services-3" class="row-2">
+                                <div class="font">
+                                    Data Mining
+                                </div>
+                                <p>
+                                    Usage of the Internet is becoming more common due to rapid advancement of technology
+                                    and power.
+                                </p>
+                            </div>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="Blogs">
+            <h1>Latest Posts from Our Blog</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<br>labore
+                et dolore magna aliqua.</p>
+        </div>
+        <div id="rev-1">
+            <table>
+                <tr>
+                    <th>
+                        <div id="review1" class="review">
+                            <div class="img1">
+                                <img src="https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/7-1024.png">
+                            </div>
+                            <br>
+                            <h2>Neel Modi</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quos labore molestias, earum
+                                expedita dolorum officia magni. Beatae laboriosam </p>
+                            <div class="img2">
+                                <img
+                                    src="https://th.bing.com/th/id/R.01eb2c78143394b1edf3b1ca04109cbd?rik=miUCGv%2bdKfd%2fMA&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f1133%2f4262%2ffiles%2ffive_star_reviews_large.jpg%3f3236912277928478873&ehk=YSiC%2bRTQsuLPMUleTfOXxg39D3Z1%2fCoLno03trqsdgc%3d&risl=&pid=ImgRaw&r=0">
+                            </div>
+                        </div>
+                    </th>
+                    <th>
+                        <div id="review2" class="review">
+                            <div class="img1">
+                                <img src="https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/7-1024.png">
+                            </div>
+                            <br>
+                            <h2>Neel Modi</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quos labore molestias, earum
+                                expedita dolorum officia magni. Beatae laboriosam </p>
+                            <div class="img2">
+                                <img
+                                    src="https://th.bing.com/th/id/R.01eb2c78143394b1edf3b1ca04109cbd?rik=miUCGv%2bdKfd%2fMA&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f1133%2f4262%2ffiles%2ffive_star_reviews_large.jpg%3f3236912277928478873&ehk=YSiC%2bRTQsuLPMUleTfOXxg39D3Z1%2fCoLno03trqsdgc%3d&risl=&pid=ImgRaw&r=0">
+                            </div>
+                        </div>
+                    </th>
+                    <th>
+                        <div id="review3" class="review">
+                            <div class="img1">
+                                <img src="https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/7-1024.png">
+                            </div>
+                            <br>
+                            <h2>Neel Modi</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quos labore molestias, earum
+                                expedita dolorum officia magni. Beatae laboriosam </p>
+                            <div class="img2">
+                                <img
+                                    src="https://th.bing.com/th/id/R.01eb2c78143394b1edf3b1ca04109cbd?rik=miUCGv%2bdKfd%2fMA&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f1133%2f4262%2ffiles%2ffive_star_reviews_large.jpg%3f3236912277928478873&ehk=YSiC%2bRTQsuLPMUleTfOXxg39D3Z1%2fCoLno03trqsdgc%3d&risl=&pid=ImgRaw&r=0">
+                            </div>
+                        </div>
+                    </th>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+</body>
+</html>
